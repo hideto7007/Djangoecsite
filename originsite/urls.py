@@ -1,9 +1,9 @@
 from django.urls import path
-from ecsite.views.views import SampleDataListCreateAPIView
-from ecsite.views.api_views import SampleDataListAPIView
-from ecsite.views.post_views import SampleDataPostListAPIView
+from originsite.views.views import SampleDataListCreateAPIView
+from originsite.views.api_views import SampleDataListAPIView
+from originsite.views.post_views import SampleDataPostListAPIView
 from rest_framework import routers
-from ecsite import views
+from originsite import views
 # from api import views as api_views
 
 # 登録用API

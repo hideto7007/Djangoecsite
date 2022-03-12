@@ -4,10 +4,10 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from django.http import JsonResponse
 
-from ecsite.model.request_models import SampleData
-from ecsite.serializer.serializers import SampleDataSerializer
-from ecsite.sample_const import *
-from ecsite.sample_get_common import *
+from originsite.model.models import SampleData
+from originsite.serializer.serializers import SampleDataSerializer
+from originsite.sample_const import *
+from originsite.sample_get_common import *
 
 
 class SampleDataListAPIView(views.APIView):

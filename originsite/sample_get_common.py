@@ -1,10 +1,10 @@
 import datetime
 import re
 
-from ecsite.sample_const import *
-from ecsite.sample_post_common import value_check
-from ecsite.serializer.serializers import SampleDataSerializer
-from ecsite.model.request_models import SampleData
+from originsite.sample_const import *
+from originsite.sample_post_common import value_check
+from originsite.serializer.serializers import SampleDataSerializer
+from originsite.model.models import SampleData
 
 
 

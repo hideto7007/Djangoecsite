@@ -9,8 +9,8 @@ from rest_framework import authentication, permissions
 from django.contrib.auth.models import User
 
 
-from ecsite.model.request_models import SampleData
-from ecsite.serializer.serializers import SampleDataSerializer
+from originsite.model.models import SampleData
+from originsite.serializer.serializers import SampleDataSerializer
 
 
 class SampleDataListCreateAPIView(viewsets.ModelViewSet):

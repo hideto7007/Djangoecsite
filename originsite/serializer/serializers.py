@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from ecsite.model.request_models import Userinfo, SampleData
+from originsite.model.models import Userinfo, SampleData
 
 
 class UserinfoSerializer(serializers.ModelSerializer):

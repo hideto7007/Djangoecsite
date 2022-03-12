@@ -1,8 +1,8 @@
 from rest_framework import status, views, generics, viewsets
 from django.http import JsonResponse
 
-from ecsite.sample_const import *
-from ecsite.sample_post_common import *
+from originsite.sample_const import *
+from originsite.sample_post_common import *
 
 
 
