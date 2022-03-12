@@ -1,0 +1,5 @@
+SQLAlchemy~=1.4.28
+psycopg2==2.8.6
+Django~=2.2.26
+djangorestframework~=3.13.1
+api~=0.0.7

@@ -1,0 +1,307 @@
+POST http://localhost:8000/api/sample_response/
+Content-Type: application/json
+
+{
+    "data": {
+        "result_code": 0,
+        "message": "success",
+        "detail": [
+          {
+            "id": "2",
+            "sample1": "0",
+            "sample2": "value3",
+            "code1": "22",
+            "code2": "22",
+            "code3": "",
+            "code4": "",
+            "sample3": "",
+            "sample4": "",
+            "status": "登録済み",
+            "test_id": "",
+            "param_id": "1111"
+          }
+        ]
+    },
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+        "allow": "POST, OPTIONS",
+        "connection": "keep-alive",
+        "content-length": "295",
+        "content-type": "application/json",
+        "date": "Sun, 06 Mar 2022 05:55:06 GMT",
+        "server": "WSGIServer/0.2 CPython/3.8.5",
+        "vary": "Accept, Cookie",
+        "x-frame-options": "SAMEORIGIN",
+        "x-powered-by": "Express"
+    },
+    "config": {
+        "transitional": {
+            "silentJSONParsing": true,
+            "forcedJSONParsing": true,
+            "clarifyTimeoutError": false
+        },
+        "transformRequest": [
+            null
+        ],
+        "transformResponse": [
+            null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/json"
+        },
+        "method": "post",
+        "url": "/api/sample_response/",
+        "data": "{\"param_id\":\"1111\",\"data\":[{\"id\":\"3\",\"sample1\":\"2\",\"sample2\":\"value13\",\"code1\":\"\",\"code2\":\"\",\"code3\":\"\",\"code4\":\"\",\"sample3\":\"sample3\",\"sample4\":\"sample4\",\"status\":\"修正中\",\"test_id\":\"587\",\"update_user\":\"tsuzuki\",\"delete_flag\":\"0\"}]}"
+    },
+    "request": {}
+}
+
+###
+POST http://localhost:8000/api/sample_response/
+Content-Type: application/json
+
+{
+    "data": {
+        "result_code": 0,
+        "message": "success",
+        "detail": [
+            {
+                "id": "2",
+                "sample1": "3",
+                "sample2": "value22",
+                "code1": "12",
+                "code2": "",
+                "code3": "",
+                "code4": "",
+                "sample3": "",
+                "sample4": "",
+                "status": "登録済み",
+                "test_id": "7589",
+                "param_id": "1111"
+            }
+        ]
+    },
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+        "allow": "POST, OPTIONS",
+        "connection": "keep-alive",
+        "content-length": "290",
+        "content-type": "application/json",
+        "date": "Sun, 06 Mar 2022 05:53:42 GMT",
+        "server": "WSGIServer/0.2 CPython/3.8.5",
+        "vary": "Accept, Cookie",
+        "x-frame-options": "SAMEORIGIN",
+        "x-powered-by": "Express"
+    },
+    "config": {
+        "transitional": {
+            "silentJSONParsing": true,
+            "forcedJSONParsing": true,
+            "clarifyTimeoutError": false
+        },
+        "transformRequest": [
+            null
+        ],
+        "transformResponse": [
+            null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/json"
+        },
+        "method": "post",
+        "url": "/api/sample_response/",
+        "data": "{\"param_id\":\"1111\",\"data\":[{\"id\":\"4\",\"sample1\":\"3\",\"sample2\":\"value22\",\"code1\":\"44\",\"code2\":\"\",\"code3\":\"\",\"code4\":\"\",\"sample3\":\"\",\"sample4\":\"\",\"status\":\"登録済み\",\"test_id\":\"7589\",\"update_user\":\"tsuzuki\",\"delete_flag\":\"0\"}]}"
+    },
+    "request": {}
+}
+
+###
+POST http://localhost:8000/api/sample_response/
+Content-Type: application/json
+
+{
+    "data": {
+        "result_code": 0,
+        "message": "success",
+        "detail": [
+            {
+                "id": "3",
+                "sample1": "1",
+                "sample2": "value8",
+                "code1": "",
+                "code2": "",
+                "code3": "30",
+                "code4": "358",
+                "sample3": "",
+                "sample4": "sample4",
+                "status": "登録済み",
+                "test_id": "",
+                "param_id": "1111"
+            }
+        ]
+    },
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+        "allow": "POST, OPTIONS",
+        "connection": "keep-alive",
+        "content-length": "296",
+        "content-type": "application/json",
+        "date": "Sun, 06 Mar 2022 05:49:53 GMT",
+        "server": "WSGIServer/0.2 CPython/3.8.5",
+        "vary": "Accept, Cookie",
+        "x-frame-options": "SAMEORIGIN",
+        "x-powered-by": "Express"
+    },
+    "config": {
+        "transitional": {
+            "silentJSONParsing": true,
+            "forcedJSONParsing": true,
+            "clarifyTimeoutError": false
+        },
+        "transformRequest": [
+            null
+        ],
+        "transformResponse": [
+            null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/json"
+        },
+        "method": "post",
+        "url": "/api/sample_response/",
+        "data": "{\"param_id\":\"1111\",\"data\":[{\"id\":\"3\",\"sample1\":\"1\",\"sample2\":\"value8\",\"code1\":\"\",\"code2\":\"\",\"code3\":\"235\",\"code4\":\"358\",\"sample3\":\"\",\"sample4\":\"sample4\",\"status\":\"登録済み\",\"test_id\":\"\",\"update_user\":\"tsuzuki\",\"delete_flag\":\"0\"}]}"
+    },
+    "request": {}
+}
+
+###
+POST http://localhost:8000/api/sample_response/
+Content-Type: application/json
+
+//　　　　　　　　　　必須項目
+//                "id": "2",
+//                "sample1": "0",
+//                "sample2": "value3",
+//                "code1": "22",
+//                "code2": "22",
+//                   任意項目
+//                "status": "",
+
+
+{
+    "data": {
+        "result_code": 0,
+        "message": "Success",
+        "detail": [
+            {
+                "id": "2",
+                "sample1": "0",
+                "sample2": "value2",
+                "code1": "22",
+                "code2": "22",
+                "code3": "",
+                "code4": "",
+                "sample3": "",
+                "sample4": "",
+                "status": "登録済み",
+                "test_id": "",
+                "param_id": "1111"
+            },
+            {
+                "id": "3",
+                "sample1": "1",
+                "sample2": "value8",
+                "code1": "",
+                "code2": "",
+                "code3": "30",
+                "code4": "358",
+                "sample3": "",
+                "sample4": "sample4",
+                "status": "登録済み",
+                "test_id": "",
+                "param_id": "1111"
+            },
+            {
+                "id": "4",
+                "sample1": "2",
+                "sample2": "value15",
+                "code1": "",
+                "code2": "",
+                "code3": "",
+                "code4": "",
+                "sample3": "sample3",
+                "sample4": "sample4",
+                "status": "登録済み",
+                "test_id": "789",
+                "param_id": "1111"
+            }
+        ]
+    },
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+        "allow": "POST, OPTIONS",
+        "connection": "keep-alive",
+        "content-length": "261",
+        "content-type": "application/json",
+        "date": "Tue, 08 Mar 2022 12:23:30 GMT",
+        "server": "WSGIServer/0.2 CPython/3.8.5",
+        "vary": "Accept, Cookie",
+        "x-frame-options": "SAMEORIGIN",
+        "x-powered-by": "Express"
+    },
+    "config": {
+        "transitional": {
+            "silentJSONParsing": true,
+            "forcedJSONParsing": true,
+            "clarifyTimeoutError": false
+        },
+        "transformRequest": [
+            null
+        ],
+        "transformResponse": [
+            null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/json"
+        },
+        "method": "post",
+        "url": "/api/sample_response/",
+        "data": "{\"param_id\":\"1111\",\"data\":[{\"id\":\"2\",\"sample1\":\"0\",\"sample2\":\"value2\",\"code1\":\"22\",\"code2\":\"22\",\"code3\":\"\",\"code4\":\"\",\"sample3\":\"\",\"sample4\":\"\",\"status\":\"登録済み\",\"test_id\":\"\",\"param_id\":\"1111\"}]}"
+    },
+    "request": {}
+}
+
+
+
+
+###
+
+
