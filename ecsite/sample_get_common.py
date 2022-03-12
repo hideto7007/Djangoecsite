@@ -3,7 +3,7 @@ import re
 
 from ecsite.sample_const import *
 from ecsite.sample_post_common import value_check
-from ecsite.serializer.serializers import SampleDataSerializer, PulldownSelectSerializer
+from ecsite.serializer.serializers import SampleDataSerializer
 from ecsite.model.request_models import SampleData
 
 

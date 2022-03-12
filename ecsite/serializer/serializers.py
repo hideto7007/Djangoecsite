@@ -1,6 +1,5 @@
 from rest_framework import serializers
 from ecsite.model.request_models import Userinfo, SampleData
-from ecsite.model.pulldown_model import PulldownSelect
 
 
 class UserinfoSerializer(serializers.ModelSerializer):
@@ -14,7 +13,4 @@ class SampleDataSerializer(serializers.ModelSerializer):
         model = SampleData
         fields = "__all__"
 
-class PulldownSelectSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = PulldownSelect
-        fields = "__all__"
+

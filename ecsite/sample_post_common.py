@@ -2,8 +2,7 @@ import datetime
 import re
 
 from ecsite.sample_const import *
-from ecsite.serializer.serializers import SampleDataSerializer, PulldownSelectSerializer
-from ecsite.model.pulldown_model import PulldownSelect
+from ecsite.serializer.serializers import SampleDataSerializer
 from ecsite.model.request_models import SampleData
 
 

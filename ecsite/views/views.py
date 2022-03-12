@@ -10,17 +10,13 @@ from django.contrib.auth.models import User
 
 
 from ecsite.model.request_models import SampleData
-from ecsite.model.pulldown_model import PulldownSelect
-from ecsite.serializer.serializers import SampleDataSerializer, PulldownSelectSerializer
+from ecsite.serializer.serializers import SampleDataSerializer
 
 
 class SampleDataListCreateAPIView(viewsets.ModelViewSet):
     queryset = SampleData.objects.all()
     serializer_class = SampleDataSerializer
 
-class SamplePulldownListCreateAPIView(viewsets.ModelViewSet):
-    queryset = PulldownSelect.objects.all()
-    serializer_class = PulldownSelectSerializer
 
 
 
